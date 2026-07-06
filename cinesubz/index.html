@@ -6,79 +6,99 @@
     <title>cinesubz - cinesubz.my</title>
     <meta name="robots" content="nofollow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://cinesubz.my/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://cinesubz.ink/images/icon.png" type="image/x-icon">
     <style>
-    body {
-        margin: 0;
-        background: #111;
-    }
-    iframe#main-iframe {
-        width: calc(100vw - 320px);
+    body > iframe {
+        width: 100%;
         height: 100vh;
-        display:block;
-        margin: auto;
         position: fixed;
+        top: 0;
+    }
+
+    body {
+        overflow: hidden;
+        margin: 0;
+        background:#202020;
+    }
+
+    .banner_wrapper {
+        position: fixed;
+        z-index: 5;
+    }
+
+    .banner-left { 
+        bottom: 0;
+    }
+
+    .banner-right {
+        right: 20px;
+        width: 160px;
+        bottom: 0;
+    }
+
+    .banner-ngang {
+        bottom: 0;
         left: 50%;
         transform: translateX(-50%);
     }
-    .banner-ngang {
-        position: fixed;
-        left: 50%;  
-        transform:translateX(-50%); 
-        bottom: 0;
-        display: flex;
+    @media only screen and (max-width: 1500px) {
+        .banner-right,.banner-left {
+            display: none;
+        }
     }
     .ngang-mobi{
         display: none;
     }
-    .banner-sidebar {
-        position: fixed;
-        left: 0;
-        top: 50%;
-        transform:translateY(-50%);
-        display: flex;
-        flex-direction: column;
-    }
-    .banner-sidebar.banner-right {
-        right: 0;
-        left: auto;
-        padding-left: 17px;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
-        width: 184px;
-        z-index: 1;
-        top: 0;
-        transform: inherit;
-        background: #111;
-    }
-
-    
-    @media only screen and (max-width: 1000px) {
-        iframe#main-iframe {
-            width: 100vw;
-        }
-        .banner-sidebar {
-            display: none!important;
-        }
-    }
     @media only screen and (max-width: 728px) {
 
-        .banner-ngang {
+        .ngang-pc {
             display: none;
         }
         .ngang-mobi{
             display: block;
         }
     }
-    .banner-sidebar.banner-right iframe {
+         
+    .header {
+        width: 160px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        position: fixed;
+        left: calc(50vw);
+        transform: translateX(-508px);
         z-index: 2;
     }
 
-    .banner-sidebar button {
-        z-index: 2;
+    .header a {
+        max-width: 1016px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
     }
+
+    .logo {
+        z-index:9999; position:fixed; top:4px; border-radius: 2px;
+        display: flex;
+        width: 160px;
+        height: 42px;
+        padding: 3px;
+        padding-top: 6px;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+
+    @media only screen and (max-width: 896px) {
+        .header {
+            left: calc(50vw - 80px);
+            transform: initial;
+        }
+    }
+    .banner-sidebar.banner-right {
+        display: block!important;
+    }
+
+    .header {display: none;}
     </style>
 </head>
 <body>
@@ -86,29 +106,29 @@
     <div class="banner-sidebar banner_wrapper banner-right">
         <script type="text/javascript">
         atOptions = {
-        'key' : '8e20cade0f92282563a37b21fd28f7f8',
+        'key' : 'ddd56e15dbc2aa8a97e62465c184df9b',
         'format' : 'iframe',
         'height' : 300,
         'width' : 160,
         'params' : {}
         };
         </script>
-        <script type="text/javascript" src="//focusameneducation.com/8e20cade0f92282563a37b21fd28f7f8/invoke.js"></script>
+        <script type="text/javascript" src="//focusameneducation.com/ddd56e15dbc2aa8a97e62465c184df9b/invoke.js"></script>
     </div>
 
-    <iframe id="main-iframe" src="https://cinesubz.net/" frameborder="0" allowfullscreen></iframe>
+    <iframe id="main-iframe" src="https://www.lksubs.com/" frameborder="0" allowfullscreen></iframe>
    
     <div class="banner-ngang banner_wrapper ngang-pc">
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
         atOptions = {
-            'key' : '7a4d2cd3dc38c60993a98c372570fa4c',
+            'key' : '3bbb34c90b32325bb91e1cc0ab93715d',
             'format' : 'iframe',
             'height' : 90,
             'width' : 728,
             'params' : {}
         };
         </script>
-        <script type="text/javascript" src="//focusameneducation.com/7a4d2cd3dc38c60993a98c372570fa4c/invoke.js"></script>
+        <script type="text/javascript" src="//focusameneducation.com/3bbb34c90b32325bb91e1cc0ab93715d/invoke.js"></script> -->
         <script async data-cfasync="false" data-size="728x90" data-category="" data-id="dl-banner-728x90" data-zone="10328346" src="//a-zzz.com/btag.min.js"></script>
     </div>
 
@@ -116,25 +136,25 @@
         
  <script type="text/javascript">
     atOptions = {
-        'key' : 'bf572a3efb1186ad1aecf64a183a83dc',
+        'key' : '19e319d8a8cde68454482c1b6955add8',
         'format' : 'iframe',
         'height' : 50,
         'width' : 320,
         'params' : {}
     };
 </script>
-<script type="text/javascript" src="//focusameneducation.com/bf572a3efb1186ad1aecf64a183a83dc/invoke.js"></script>
+<script type="text/javascript" src="//focusameneducation.com/19e319d8a8cde68454482c1b6955add8/invoke.js"></script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     atOptions = {
-        'key' : '16999e14875d77afd72e45b8abe8dcfb',
+        'key' : '7ea14033564a06e8540354372abe8d08',
         'format' : 'iframe',
         'height' : 250,
         'width' : 300,
         'params' : {}
     };
 </script>
-<script type="text/javascript" src="//focusameneducation.com/16999e14875d77afd72e45b8abe8dcfb/invoke.js"></script>
+<script type="text/javascript" src="//focusameneducation.com/7ea14033564a06e8540354372abe8d08/invoke.js"></script> -->
 
     </div>
 
@@ -142,14 +162,14 @@
 <div class="banner-sidebar banner_wrapper banner-left">
 <script type="text/javascript">
     atOptions = {
-        'key' : 'ffc49330b01586959daff159afdcfdf1',
+        'key' : 'caf02e8e5ab6fd02a7f27e7ddbf5d005',
         'format' : 'iframe',
         'height' : 600,
         'width' : 160,
         'params' : {}
     };
 </script>
-<script type="text/javascript" src="//focusameneducation.com/ffc49330b01586959daff159afdcfdf1/invoke.js"></script>
+<script type="text/javascript" src="//focusameneducation.com/caf02e8e5ab6fd02a7f27e7ddbf5d005/invoke.js"></script>
 </div>
 
 <script>
